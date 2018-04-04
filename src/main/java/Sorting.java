@@ -34,13 +34,30 @@ public class Sorting {
     private static int[] bubbleSort(final int[] array) {
         return null;
     }
+    int[] BubbleSort (int array[]) {
+        for (int i = 1; i < array.length(); i++) {
+            if (array[i] < array[i +1]) {
+                int temp = array[i];
+                array[i] = array[i+1];
+                array[i + 1] = temp;
+            }
 
-    /**
-     * Selection sort.
-     *
-     * @param array unsorted input array
-     * @return the sorted array, or null on failure
-     */
+
+            return array;
+
+        }
+
+System.arraycopy(array,srcPos 0, 0, arr1,destPos 0, arr.length):
+        System.arraycopy_(array,arr1.length, arr2,destPos 0, arr2.length);
+        int[] sorted1 = mergeSort(arr1):
+        int[] sorted2 = mergeSort(arr2);
+        output = merge (sorted1,sorted2);
+        /**
+         * Selection sort.
+         *
+         * @param array unsorted input array
+         * @return the sorted array, or null on failure
+         */
     @SuppressWarnings("unused")
     private static int[] selectionSort(final int[] array) {
         return null;
